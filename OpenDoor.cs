@@ -4,7 +4,7 @@ using System.Collections;
 public class OpenDoor : MonoBehaviour {
 
 	public float smooth = 2.0f;
-	public float DoorOpenAngle = 90.0f;
+	public float DoorOpenAngle = -90.0f;
 
 	private Vector3 defaultRot;
 	private Vector3 openRot;
